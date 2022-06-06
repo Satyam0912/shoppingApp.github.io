@@ -1,68 +1,71 @@
 body {
-    background: linear-gradient(90deg, rgba(132, 28, 60, 1) 0%, rgba(248, 95, 81, 1) 100%);
+	background: linear-gradient(90deg, rgba(132,28,60,1) 0%, rgba(248,95,81,1) 100%);
 }
 
 .main-header-section.jumbotron {
-    text-align: center;
-    background-color: #fbe5d6;
+	text-align: center;
+	background-color: #fbe5d6;
 }
 
 .jumbotron-img {
-    height: 300px;
+	height: 300px;
 }
 
 .btn-primary {
-    background: linear-gradient(90deg, rgba(132, 28, 60, 1) 0%, rgba(248, 95, 81, 1) 100%);
+	background: linear-gradient(90deg, rgba(132,28,60,1) 0%, rgba(248,95,81,1) 100%);
 }
 
 .navbar {
-    background-color: #fbe5d6;
+	background-color: #fbe5d6;
 }
 
 .btn {
-    border: none;
+	border: none
 }
-
 .btn:active {
-    box-shadow: none;
+	box-shadow: none;
 }
-
 .btn:focus {
-    box-shadow: none;
+	box-shadow: none;
 }
 
 .navbar-brand img {
-    border-radius: 10px;
-    margin-right: 2px;
+	border-radius: 10px;
+	margin-right: 2px;
 }
 
 .card.product {
-    margin: 10px 0;
+	margin: 10px 0;
 }
 
 .card.product .card-img-top {
-    /* height: 300px; */
+	height: 200px;
 }
 
 .card.product .btn-outer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
 }
 
 .card.product .btn-outer .buy-btn {
-    width: 100px;
+	width: 100px;
 }
 
 .card.product .product-header {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	height: 39px;
 }
 
-.checked {
-    color: orange;
+.fa-star.checked {
+  color: orange;
 }
 
 .card-title.product-price {
-    color: green;
+	color: green;
+}
+
+.card-text {
+	height: 72px;
 }
