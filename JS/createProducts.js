@@ -54,7 +54,7 @@ const createProductDiv = (product) => {
     productDescription.innerText = `${product.description.slice(0, 50)}...`
     ratingCount.innerText = `(${product.rating.count})`
     addToCartButton.innerText = 'Add to cart'
-    buyButton.innerText = 'But now'
+    buyButton.innerText = 'Buy now'
 
     productImg.src = product.image
     productImg.alt = 'product-img'
